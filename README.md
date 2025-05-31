@@ -41,15 +41,15 @@ A simple backend-only RESTful service for managing expenses.
 ### Database Setup  
 
 - Create a new database in MySQL:  
-  CREATE DATABASE expense_tracker_db;  
+  &nbsp;CREATE DATABASE expense_tracker_db;  
 - Create a MySQL user with privileges or use your existing user.  
 - Update src/main/resources/application.properties (or .yml) with your MySQL credentials:  
-  spring.datasource.url=jdbc:mysql://localhost:3306/expense_tracker_db  
-  spring.datasource.username=your_mysql_username  
-  spring.datasource.password=your_mysql_password  
-  spring.jpa.hibernate.ddl-auto=update  
-  spring.jpa.show-sql=true  
-  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect  
+  &nbsp;spring.datasource.url=jdbc:mysql://localhost:3306/expense_tracker_db  
+  &nbsp;spring.datasource.username=your_mysql_username  
+  &nbsp;spring.datasource.password=your_mysql_password  
+  &nbsp;spring.jpa.hibernate.ddl-auto=update  
+  &nbsp;spring.jpa.show-sql=true  
+  &nbsp;spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect  
 
 
 ### Build and Run  
