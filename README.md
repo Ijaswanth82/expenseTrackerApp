@@ -54,12 +54,12 @@ A simple backend-only RESTful service for managing expenses.
 
 ### Build and Run  
 1.Clone the repo   
-   &nbsp;git clone https://github.com/Ijaswanth82/expenseTrackerApp.git  
-   &nbsp;cd expenseTrackerApp  
+   &nbsp;&nbsp;git clone https://github.com/Ijaswanth82/expenseTrackerApp.git  
+   &nbsp;&nbsp;cd expenseTrackerApp  
 2.Build the project using Maven:  
-   &nbsp;mvn clean install  
+   &nbsp;&nbsp;mvn clean install  
 3.Run the application  
-   &nbsp;mvn spring-boot:run  
+   &nbsp;&nbsp;mvn spring-boot:run  
 
 
 ### Usage / API Examples  
