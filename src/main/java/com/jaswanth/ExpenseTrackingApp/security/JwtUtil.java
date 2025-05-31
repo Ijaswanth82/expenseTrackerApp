@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-    private final String SECRET_KEY = "wN8sLk2vGqZrP0mFd9JxB1TyV3UaHs6C";
+    private final String SECRET_KEY = "";
 
     private final long EXPIRATION_TIME = 1000 * 60 * 60 * 10;
 
