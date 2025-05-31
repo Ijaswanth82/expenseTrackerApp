@@ -40,7 +40,7 @@ A simple backend-only RESTful service for managing expenses.
 
 ### Database Setup  
 
-  1. Create a new database in MySQL:  
+   1. Create a new database in MySQL:  
   CREATE DATABASE expense_tracker_db;  
 2.Create a MySQL user with privileges or use your existing user.  
 3.Update src/main/resources/application.properties (or .yml) with your MySQL credentials:  
